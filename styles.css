@@ -1,0 +1,47 @@
+.discount {
+  padding: 5px 0 5px 0;
+  height: 35px;
+  background-color: #ECE5C7;
+  color: #000000;
+  text-align: center;
+}
+
+.nav-link :hover{
+  color: blue;
+}
+
+.navbar-brand{
+  font-family: "Gruppo",cursive;
+  font-size: 24px;
+  font-weight:700;
+}
+
+.tagline{
+  font-size: 5rem;
+}
+
+.frontphoto{
+  width:400px;
+  height: 500px;
+}
+
+
+.card-generic-img{
+  width:200px;
+  height: 200px;
+}
+
+.bg-black{
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 700px) {
+  .discount{
+    font-size: small;
+    height: 30px;
+  }
+
+  .col-md{
+    padding-bottom: 30px;
+  }
+}
